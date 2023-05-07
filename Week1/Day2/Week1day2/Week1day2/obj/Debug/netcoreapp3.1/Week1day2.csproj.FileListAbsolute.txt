@@ -1,0 +1,14 @@
+D:\CSTP1303\Week1day2\Week1day2\Week1day2\bin\Debug\netcoreapp3.1\Week1day2.exe
+D:\CSTP1303\Week1day2\Week1day2\Week1day2\bin\Debug\netcoreapp3.1\Week1day2.deps.json
+D:\CSTP1303\Week1day2\Week1day2\Week1day2\bin\Debug\netcoreapp3.1\Week1day2.runtimeconfig.json
+D:\CSTP1303\Week1day2\Week1day2\Week1day2\bin\Debug\netcoreapp3.1\Week1day2.runtimeconfig.dev.json
+D:\CSTP1303\Week1day2\Week1day2\Week1day2\bin\Debug\netcoreapp3.1\Week1day2.dll
+D:\CSTP1303\Week1day2\Week1day2\Week1day2\bin\Debug\netcoreapp3.1\Week1day2.pdb
+D:\CSTP1303\Week1day2\Week1day2\Week1day2\obj\Debug\netcoreapp3.1\Week1day2.csproj.AssemblyReference.cache
+D:\CSTP1303\Week1day2\Week1day2\Week1day2\obj\Debug\netcoreapp3.1\Week1day2.GeneratedMSBuildEditorConfig.editorconfig
+D:\CSTP1303\Week1day2\Week1day2\Week1day2\obj\Debug\netcoreapp3.1\Week1day2.AssemblyInfoInputs.cache
+D:\CSTP1303\Week1day2\Week1day2\Week1day2\obj\Debug\netcoreapp3.1\Week1day2.AssemblyInfo.cs
+D:\CSTP1303\Week1day2\Week1day2\Week1day2\obj\Debug\netcoreapp3.1\Week1day2.csproj.CoreCompileInputs.cache
+D:\CSTP1303\Week1day2\Week1day2\Week1day2\obj\Debug\netcoreapp3.1\Week1day2.dll
+D:\CSTP1303\Week1day2\Week1day2\Week1day2\obj\Debug\netcoreapp3.1\Week1day2.pdb
+D:\CSTP1303\Week1day2\Week1day2\Week1day2\obj\Debug\netcoreapp3.1\Week1day2.genruntimeconfig.cache

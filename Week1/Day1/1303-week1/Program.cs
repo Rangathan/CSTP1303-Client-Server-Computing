@@ -46,16 +46,17 @@ namespace _1303_week1
             Point p4 =new Point();
             
             p4 = null;
-            if (p4 == null)
-            {
-                Console.WriteLine("p4 is null");
-                
-            }
+            program.Print(p4, "after assignmnet");
             program.TestReadLine();
         }
         
         public void  Print(Point p, string message)
         {
+          if (p == null)
+            {
+                Console.WriteLine("p is null");
+                return;
+            }
          Cosnole.WriteLine($"{message}: x:{p.x}, y:{p.y}");
         }
         

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ClntSrvrWk1
+namespace Practice
 {
     internal class Program
     {

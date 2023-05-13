@@ -27,12 +27,38 @@ namespace _1303_week1
             var p1 = new Point();
             p1.x = 10;
             p1.y = 12;
+            program.Print(p1, "after assignmnet");
 
             int b = 20;
             b = a;
 
             Point p2 = p1;
+            program.Print(p2, "after assignmnet");
+            Point p3 = new Point();
+            
+            p3.x =23;
+            p3.y =64;
+            
+            program.Print(p3, "before assignmnet");
+            p3 =p1;
+            program.Print(p3, "after assignmnet");
+            
+            Point p4 =new Point();
+            
+            p4 = null;
+            if (p4 == null)
+            {
+                Console.WriteLine("p4 is null");
+                
+            }
+            program.TestReadLine();
         }
+        
+        public void  Print(Point p, string message)
+        {
+         Cosnole.WriteLine($"{message}: x:{p.x}, y:{p.y}");
+        }
+        
         public void PrintNumbers() 
         {
             Console.WriteLine("this is a test");

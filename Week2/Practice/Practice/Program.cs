@@ -160,7 +160,9 @@ namespace ClntSrvrWk1
                 for (int j = 0; j < matrix.GetLength(1); j++)
                 {
                     matrix[i, j] = (i * 3) + j;
+                    Console.Write($"{matrix[i, j]} "};
                 }
+                Cosnole.WriteLine();
             }
         }
     }

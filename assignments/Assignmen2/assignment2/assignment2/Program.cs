@@ -17,9 +17,9 @@ namespace assignment2
                 Console.WriteLine("2. Option 2 - Show user By ID");
                 Console.WriteLine("3. Option 3 - Show User By Name");
                 Console.WriteLine("4. Option 4 - Delete User By Id");
-                Console.WriteLine("5. Option 5 - Delete user by Id");
+                Console.WriteLine("5. Option 5 - Delete user by Name");
                 Console.WriteLine("6. Option 6 - Show all users");
-                Console.WriteLine("6. Option 7 - Exit program");
+                Console.WriteLine("7. Option 7 - Exit program");
 
 
                 Program program = new Program();
@@ -48,7 +48,6 @@ namespace assignment2
                         break;
 
                     case 7:
-                        
                         Console.WriteLine("Exiting program...");
                         break;
                     default:
@@ -67,7 +66,7 @@ namespace assignment2
             do
             {
 
-                Console.WriteLine(" Please choose an option between 1 and 6.");
+                Console.WriteLine(" Please choose an option between 1 and 7.");
                 line = Console.ReadLine();
 
             } while (!int.TryParse(line, out choice) || choice < 1 || choice > 10);

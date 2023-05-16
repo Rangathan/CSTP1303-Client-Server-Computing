@@ -66,10 +66,10 @@ namespace assignment2
             do
             {
 
-                Console.WriteLine(" Please choose an option between 1 and 7.");
+                Console.WriteLine("Please choose an option between 1 and 7.");
                 line = Console.ReadLine();
 
-            } while (!int.TryParse(line, out choice) || choice < 1 || choice > 10);
+            } while (!int.TryParse(line, out choice) || choice < 1 || choice > 7);
 
             return choice;
         }

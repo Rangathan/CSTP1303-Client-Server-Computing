@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Assignment3.Classes
 {
-    internal class Truck : Car
+    internal class Truck : vehicle
     {
         private String cargoCapacity;
         public Truck(string name, int year, int wheels, int AmountofPas, string cargoCapacity) : base(name, year, wheels, AmountofPas)
@@ -15,7 +15,7 @@ namespace Assignment3.Classes
 
         public override string getInfo()
         {
-            return base.getInfo() + $"Cargo Capacity:{this.cargoCapacity}";
+            return base.getInfo() + $" Cargo Capacity:{this.cargoCapacity}";
         }
     }
 }

@@ -4,32 +4,17 @@ using System.Text;
 
 namespace Assignment3.Classes
 {
-    internal class Car
+    internal class Car : vehicle
     {
-        private string name;
-        private int year;
-        private int wheels;
-        private int AmountofPas;
+        private String carType;
+        public Car(string name, int year, int wheels, int AmountofPas, string carType) : base(name, year, wheels, AmountofPas)
+        {
+            this.carType = carType;
+        }
 
-        public Car(string name, int year, int wheels, int AmountofPas)
+        public override string getInfo()
         {
-            this.name = name;
-            this.year = year;
-            this.wheels = wheels;
-            this.AmountofPas = AmountofPas;
-
-        }
-        public int getYear()
-        {
-            return year;
-        }
-        public string getName()
-        {
-            return name;
-        }
-        public virtual string getInfo()
-        {
-            return $"{this.name} - {this.year} - amount of wheels: {this.wheels}, amount of passengers: {this.AmountofPas}";
+            return base.getInfo() + $" Car Type:{this.carType}";
         }
     }
 }

@@ -8,23 +8,23 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\000468357\\.nuget\\packages\\": {},
+    "C:\\Users\\adam\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\CSTP1303\\Assignments\\Assignment3\\Assignment3\\Assignment3\\Assignment3.csproj",
+      "projectUniqueName": "C:\\Users\\adam\\Documents\\Programming-Project\\CSTP 1303\\CSTP1303-Client-Server-Computing\\assignments\\Assignment3\\Assignment3\\Assignment3\\Assignment3.csproj",
       "projectName": "Assignment3",
-      "projectPath": "D:\\CSTP1303\\Assignments\\Assignment3\\Assignment3\\Assignment3\\Assignment3.csproj",
-      "packagesPath": "C:\\Users\\000468357\\.nuget\\packages\\",
-      "outputPath": "D:\\CSTP1303\\Assignments\\Assignment3\\Assignment3\\Assignment3\\obj\\",
+      "projectPath": "C:\\Users\\adam\\Documents\\Programming-Project\\CSTP 1303\\CSTP1303-Client-Server-Computing\\assignments\\Assignment3\\Assignment3\\Assignment3\\Assignment3.csproj",
+      "packagesPath": "C:\\Users\\adam\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\adam\\Documents\\Programming-Project\\CSTP 1303\\CSTP1303-Client-Server-Computing\\assignments\\Assignment3\\Assignment3\\Assignment3\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\000468357\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\adam\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -67,7 +67,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

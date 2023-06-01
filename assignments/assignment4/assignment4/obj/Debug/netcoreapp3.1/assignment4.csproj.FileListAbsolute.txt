@@ -1,0 +1,14 @@
+C:\Users\adam\Documents\Programming-Project\CSTP 1303\CSTP1303-Client-Server-Computing\assignments\assignment4\assignment4\obj\Debug\netcoreapp3.1\assignment4.csproj.AssemblyReference.cache
+C:\Users\adam\Documents\Programming-Project\CSTP 1303\CSTP1303-Client-Server-Computing\assignments\assignment4\assignment4\obj\Debug\netcoreapp3.1\assignment4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adam\Documents\Programming-Project\CSTP 1303\CSTP1303-Client-Server-Computing\assignments\assignment4\assignment4\obj\Debug\netcoreapp3.1\assignment4.AssemblyInfoInputs.cache
+C:\Users\adam\Documents\Programming-Project\CSTP 1303\CSTP1303-Client-Server-Computing\assignments\assignment4\assignment4\obj\Debug\netcoreapp3.1\assignment4.AssemblyInfo.cs
+C:\Users\adam\Documents\Programming-Project\CSTP 1303\CSTP1303-Client-Server-Computing\assignments\assignment4\assignment4\obj\Debug\netcoreapp3.1\assignment4.csproj.CoreCompileInputs.cache
+C:\Users\adam\Documents\Programming-Project\CSTP 1303\CSTP1303-Client-Server-Computing\assignments\assignment4\assignment4\bin\Debug\netcoreapp3.1\assignment4.exe
+C:\Users\adam\Documents\Programming-Project\CSTP 1303\CSTP1303-Client-Server-Computing\assignments\assignment4\assignment4\bin\Debug\netcoreapp3.1\assignment4.deps.json
+C:\Users\adam\Documents\Programming-Project\CSTP 1303\CSTP1303-Client-Server-Computing\assignments\assignment4\assignment4\bin\Debug\netcoreapp3.1\assignment4.runtimeconfig.json
+C:\Users\adam\Documents\Programming-Project\CSTP 1303\CSTP1303-Client-Server-Computing\assignments\assignment4\assignment4\bin\Debug\netcoreapp3.1\assignment4.runtimeconfig.dev.json
+C:\Users\adam\Documents\Programming-Project\CSTP 1303\CSTP1303-Client-Server-Computing\assignments\assignment4\assignment4\bin\Debug\netcoreapp3.1\assignment4.dll
+C:\Users\adam\Documents\Programming-Project\CSTP 1303\CSTP1303-Client-Server-Computing\assignments\assignment4\assignment4\bin\Debug\netcoreapp3.1\assignment4.pdb
+C:\Users\adam\Documents\Programming-Project\CSTP 1303\CSTP1303-Client-Server-Computing\assignments\assignment4\assignment4\obj\Debug\netcoreapp3.1\assignment4.dll
+C:\Users\adam\Documents\Programming-Project\CSTP 1303\CSTP1303-Client-Server-Computing\assignments\assignment4\assignment4\obj\Debug\netcoreapp3.1\assignment4.pdb
+C:\Users\adam\Documents\Programming-Project\CSTP 1303\CSTP1303-Client-Server-Computing\assignments\assignment4\assignment4\obj\Debug\netcoreapp3.1\assignment4.genruntimeconfig.cache

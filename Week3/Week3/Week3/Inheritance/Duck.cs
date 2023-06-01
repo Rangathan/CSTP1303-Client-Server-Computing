@@ -12,6 +12,14 @@ namespace ClntSrvrWk1.Lessons.Week3.Inheritance
 
         public Duck(int id, string name)
         {
+            if(id <= 0)
+            {
+                throw new ArgumentOutOfRangeException("id should be greater than zero", nameof(id));
+            }
+            if(string.IsNullOrWhiteSpace(name))
+            {
+                throw new ArgumentNullException(nameof(name), "name cannot not be null");
+            }
             this.id = id;
             this.name = name;
         }
@@ -26,7 +34,7 @@ namespace ClntSrvrWk1.Lessons.Week3.Inheritance
             return $"duck: {name} - {id}";
         }
 
-        public void Fly()
+        public virtual void Fly()
         {
             Console.WriteLine($"{this.id} - {this.name} flying ...");
         }

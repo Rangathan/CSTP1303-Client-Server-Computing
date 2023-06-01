@@ -11,5 +11,6 @@ namespace ClntSrvrWk1.Lessons.Week3.Inheritance
         {
             age = 2;
         }
+      
     }
 }

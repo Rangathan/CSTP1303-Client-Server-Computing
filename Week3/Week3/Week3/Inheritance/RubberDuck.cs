@@ -11,6 +11,11 @@ namespace ClntSrvrWk1.Lessons.Week3.Inheritance
         public RubberDuck(int id , string name, string colorTone)
             : base(id , name) 
         {
+
+        }
+        public override void Fly()
+        {
+            Console.WriteLine($"a rubber duck can't fly");
         }
     }
 }

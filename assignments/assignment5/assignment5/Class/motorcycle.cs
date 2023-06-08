@@ -7,7 +7,7 @@ namespace assignment5.Class
 {
     internal class Motorcycle
     {
-        public Motorcycle()
+        public Motorcycle(var motorcycle)
         {
             var motorcycleEngine = new Engine();
             var motorcycleBody = new Body();

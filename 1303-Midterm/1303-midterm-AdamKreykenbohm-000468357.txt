@@ -1,0 +1,164 @@
+1 - What is a constructor
+C) A special method named with the class name
+
+2 - How cohesive (unified) should your classes be and why?
+
+B) Maximize cohesion so class members relate to the class purpose.
+
+
+3 - How is an interface implemented in a class?
+
+A) All of these.
+
+
+4 - Which syntax creates a new object from the Customer class?
+
+C) Customer currentCustomer = new Customer();
+
+
+5 - What is a static class?
+
+B) A class that cannot be instantiated.
+
+
+6 - What is an abstract class
+
+D) All of the above
+
+7 - How is an exception thrown ?
+
+
+B) throw new Exception();
+
+
+8 - Which of the following collection types is used to retrieve data in a Last In First Out (LIFO) way.
+
+
+D) Stack
+
+Programming questions: 
+=====================
+9 - Write a function that calls another function and can catch an exception. 
+    - Write a function that is called by the first function and and requires a string parameter to be passed to it.
+    - The function called should throw an exception if the parameter passed is null or empty.
+
+ public void CallFunction(string name)
+        {
+            StringCheck(name);
+        }
+
+ public string StringCheck(string name)
+        {
+            if (string.IsNullOrEmpty(name))
+            {
+                throw new ArgumentException("Parameter cannot be null or empty.", nameof(name));
+            }
+
+            return name;
+        }
+
+10 - 
+Write an abstract class and reuse it in the subclass.
+Write an abstract class named Vehicle with the following two methods:
+int GetNumberOfWheels() 
+int GetMaxSpeed()
+Create two classes Motorcycle and Car that inherit from Vehicle.
+print number of wheels and maximum speed for Motorcycle and Car.
+
+public abstract class Vehicle
+    {
+        private int NumberOfWheels;
+        private int MaxSpeed;
+        public Vehicle(int MaxWheels,int MaxSpeed) 
+        {
+            this.NumberOfWheels = MaxWheels;
+            this.MaxSpeed = MaxSpeed;
+        }
+        public int GetNumberOfWheels() 
+        {
+            return this.NumberOfWheels;
+        }
+        public int GetMaxSpeed() 
+        {
+            return this.MaxSpeed;
+        }
+
+        
+    }
+
+    public class Motorcycle : Vehicle
+    {
+        public Motorcycle(int MaxWheels, int MaxSpeed) : base(MaxWheels, MaxSpeed)
+        {
+        }
+
+      
+    }
+
+    public class Car : Vehicle
+    {
+        public Car(int MaxWheels, int MaxSpeed) : base(MaxWheels, MaxSpeed)
+        {
+        }
+
+    }
+
+static void Main(string[] args)
+        {
+            Motorcycle motorcycle = new Motorcycle(2, 210);
+            Car car = new Car(4, 280);
+
+            Console.WriteLine("Motorcycle:");
+            Console.WriteLine("Number of Wheels: " + motorcycle.GetNumberOfWheels());
+            Console.WriteLine("Max Speed: " + motorcycle.GetMaxSpeed());
+
+            Console.WriteLine();
+
+            Console.WriteLine("Car:");
+            Console.WriteLine("Number of Wheels: " + car.GetNumberOfWheels());
+            Console.WriteLine("Max Speed: " + car.GetMaxSpeed());
+        }
+
+
+11 - Write a generic Stack class that has the following public methods.
+Peek - returns the next item from the stack.
+Pop - removes and returns the next item from the stack.
+Push - adds an item to the stack. 
+
+public class MyStack<T>
+    {
+        private int _size;
+        private int _position;
+        private T[] data;
+
+        public MyStack(int size)
+        {
+            _size = size;
+            data = new T[size];
+        }
+
+        public void Push(T item)
+        {
+            data[++_position] = item;
+        }
+
+        public T Pop()
+        {
+            if (data.Length == 0)
+            {
+                throw new InvalidOperationException("Stack is empty.");
+            }
+
+            return data[--_position];
+        }
+
+        public T Peek()
+        {
+            if (data.Length == 0)
+            {
+                throw new InvalidOperationException("Stack is empty.");
+            }
+
+            return data[data.Length - 1];
+        }
+    }

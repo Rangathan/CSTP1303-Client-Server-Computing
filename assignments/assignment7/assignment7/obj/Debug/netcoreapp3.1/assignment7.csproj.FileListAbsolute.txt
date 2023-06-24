@@ -1,0 +1,5 @@
+C:\Users\adam\Documents\Programming-Project\CSTP 1303\CSTP1303-Client-Server-Computing\assignments\assignment7\assignment7\obj\Debug\netcoreapp3.1\assignment7.csproj.AssemblyReference.cache
+C:\Users\adam\Documents\Programming-Project\CSTP 1303\CSTP1303-Client-Server-Computing\assignments\assignment7\assignment7\obj\Debug\netcoreapp3.1\assignment7.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adam\Documents\Programming-Project\CSTP 1303\CSTP1303-Client-Server-Computing\assignments\assignment7\assignment7\obj\Debug\netcoreapp3.1\assignment7.AssemblyInfoInputs.cache
+C:\Users\adam\Documents\Programming-Project\CSTP 1303\CSTP1303-Client-Server-Computing\assignments\assignment7\assignment7\obj\Debug\netcoreapp3.1\assignment7.AssemblyInfo.cs
+C:\Users\adam\Documents\Programming-Project\CSTP 1303\CSTP1303-Client-Server-Computing\assignments\assignment7\assignment7\obj\Debug\netcoreapp3.1\assignment7.csproj.CoreCompileInputs.cache

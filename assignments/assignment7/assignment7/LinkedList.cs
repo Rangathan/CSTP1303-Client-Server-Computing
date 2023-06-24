@@ -134,5 +134,23 @@ namespace assignment7
         {
             return this.count;
         }
+
+        public void ReverseList()
+        {
+            LinkedListNode<T> current = this.Head;
+            LinkedListNode<T> previous = null;
+            LinkedListNode<T> next = null;
+
+            while (current != null)
+            {
+                next = current.Next;
+                current.Next = previous;
+
+                previous = current;
+                current = next;
+            }
+
+            Head = previous;
+        }
     }
 }

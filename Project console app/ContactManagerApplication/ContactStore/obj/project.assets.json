@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\adam\\Documents\\Programming-Project\\CSTP 1303\\CSTP1303-Client-Server-Computing\\Project console app\\ContactManagerApplication\\ContactStore\\ContactStore.csproj",
-      "projectName": "ContactStore",
-      "projectPath": "C:\\Users\\adam\\Documents\\Programming-Project\\CSTP 1303\\CSTP1303-Client-Server-Computing\\Project console app\\ContactManagerApplication\\ContactStore\\ContactStore.csproj",
+      "projectUniqueName": "C:\\Users\\adam\\Documents\\Programming-Project\\CSTP 1303\\CSTP1303-Client-Server-Computing\\Project console app\\ContactManagerApplication\\ContactStore\\ContactStorageWebService.csproj",
+      "projectName": "ContactStorageWebService",
+      "projectPath": "C:\\Users\\adam\\Documents\\Programming-Project\\CSTP 1303\\CSTP1303-Client-Server-Computing\\Project console app\\ContactManagerApplication\\ContactStore\\ContactStorageWebService.csproj",
       "packagesPath": "C:\\Users\\adam\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\adam\\Documents\\Programming-Project\\CSTP 1303\\CSTP1303-Client-Server-Computing\\Project console app\\ContactManagerApplication\\ContactStore\\obj\\",
       "projectStyle": "PackageReference",
@@ -67,7 +67,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "DataModel/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/DataModel.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataModel.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "DataModel/1.0.0": {
+      "type": "project",
+      "path": "../DataModel/DataModel.csproj",
+      "msbuildProject": "../DataModel/DataModel.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "DataModel >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\adam\\.nuget\\packages\\": {},
@@ -14,9 +33,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\adam\\Documents\\Programming-Project\\CSTP 1303\\CSTP1303-Client-Server-Computing\\Project console app\\ContactManagerApplication\\Interfaces\\Interfaces.csproj",
-      "projectName": "Interfaces",
-      "projectPath": "C:\\Users\\adam\\Documents\\Programming-Project\\CSTP 1303\\CSTP1303-Client-Server-Computing\\Project console app\\ContactManagerApplication\\Interfaces\\Interfaces.csproj",
+      "projectUniqueName": "C:\\Users\\adam\\Documents\\Programming-Project\\CSTP 1303\\CSTP1303-Client-Server-Computing\\Project console app\\ContactManagerApplication\\Interfaces\\Abstractions.csproj",
+      "projectName": "Abstractions",
+      "projectPath": "C:\\Users\\adam\\Documents\\Programming-Project\\CSTP 1303\\CSTP1303-Client-Server-Computing\\Project console app\\ContactManagerApplication\\Interfaces\\Abstractions.csproj",
       "packagesPath": "C:\\Users\\adam\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\adam\\Documents\\Programming-Project\\CSTP 1303\\CSTP1303-Client-Server-Computing\\Project console app\\ContactManagerApplication\\Interfaces\\obj\\",
       "projectStyle": "PackageReference",
@@ -39,7 +58,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\adam\\Documents\\Programming-Project\\CSTP 1303\\CSTP1303-Client-Server-Computing\\Project console app\\ContactManagerApplication\\DataModel\\DataModel.csproj": {
+              "projectPath": "C:\\Users\\adam\\Documents\\Programming-Project\\CSTP 1303\\CSTP1303-Client-Server-Computing\\Project console app\\ContactManagerApplication\\DataModel\\DataModel.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -67,7 +90,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -2,9 +2,48 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
+      "Abstractions/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "DataModel": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Abstractions.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Abstractions.dll": {}
+        }
+      },
+      "ContactStorageDiskService/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Abstractions": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ContactStorageDiskService.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ContactStorageDiskService.dll": {}
+        }
+      },
+      "DataModel/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/DataModel.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataModel.dll": {}
+        }
+      },
       "Models/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Abstractions": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Models.dll": {}
         },
@@ -15,6 +54,21 @@
     }
   },
   "libraries": {
+    "Abstractions/1.0.0": {
+      "type": "project",
+      "path": "../Interfaces/Abstractions.csproj",
+      "msbuildProject": "../Interfaces/Abstractions.csproj"
+    },
+    "ContactStorageDiskService/1.0.0": {
+      "type": "project",
+      "path": "../ContactStorageDiskService/ContactStorageDiskService.csproj",
+      "msbuildProject": "../ContactStorageDiskService/ContactStorageDiskService.csproj"
+    },
+    "DataModel/1.0.0": {
+      "type": "project",
+      "path": "../DataModel/DataModel.csproj",
+      "msbuildProject": "../DataModel/DataModel.csproj"
+    },
     "Models/1.0.0": {
       "type": "project",
       "path": "../Models/Models.csproj",
@@ -23,6 +77,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "ContactStorageDiskService >= 1.0.0",
       "Models >= 1.0.0"
     ]
   },
@@ -59,6 +114,9 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
+            "C:\\Users\\adam\\Documents\\Programming-Project\\CSTP 1303\\CSTP1303-Client-Server-Computing\\Project console app\\ContactManagerApplication\\ContactStorageDiskService\\ContactStorageDiskService.csproj": {
+              "projectPath": "C:\\Users\\adam\\Documents\\Programming-Project\\CSTP 1303\\CSTP1303-Client-Server-Computing\\Project console app\\ContactManagerApplication\\ContactStorageDiskService\\ContactStorageDiskService.csproj"
+            },
             "C:\\Users\\adam\\Documents\\Programming-Project\\CSTP 1303\\CSTP1303-Client-Server-Computing\\Project console app\\ContactManagerApplication\\Models\\Models.csproj": {
               "projectPath": "C:\\Users\\adam\\Documents\\Programming-Project\\CSTP 1303\\CSTP1303-Client-Server-Computing\\Project console app\\ContactManagerApplication\\Models\\Models.csproj"
             }
@@ -90,7 +148,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
       }
     }
   }

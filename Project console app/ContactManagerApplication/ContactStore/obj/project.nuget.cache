@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ba4v0LJgQ97+1GkjmNezSox/mPYRrPcpsslIZwVpvaLwztpIOgMV6T6RzpN4S6VHJCrx2dMGUw98BDZpA3hYrw==",
+  "dgSpecHash": "TL4aJ8UqzlJgfUcItgGS0ff2bIKjIEOBVANHmrVdrTZ5ItdcExbbG3lpY5/SwJ9JW0eCnlsJOclVCqrxMFODGg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\adam\\Documents\\Programming-Project\\CSTP 1303\\CSTP1303-Client-Server-Computing\\Project console app\\ContactManagerApplication\\ContactStore\\ContactStore.csproj",
+  "projectFilePath": "C:\\Users\\adam\\Documents\\Programming-Project\\CSTP 1303\\CSTP1303-Client-Server-Computing\\Project console app\\ContactManagerApplication\\ContactStore\\ContactStorageWebService.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

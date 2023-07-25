@@ -32,6 +32,70 @@
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\adam\\Documents\\Programming-Project\\CSTP 1303\\CSTP1303-Client-Server-Computing\\Project console app\\ContactManagerApplication\\Models\\Models.csproj": {
+                "projectPath": "C:\\Users\\adam\\Documents\\Programming-Project\\CSTP 1303\\CSTP1303-Client-Server-Computing\\Project console app\\ContactManagerApplication\\Models\\Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\adam\\Documents\\Programming-Project\\CSTP 1303\\CSTP1303-Client-Server-Computing\\Project console app\\ContactManagerApplication\\DataModel\\DataModel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\adam\\Documents\\Programming-Project\\CSTP 1303\\CSTP1303-Client-Server-Computing\\Project console app\\ContactManagerApplication\\DataModel\\DataModel.csproj",
+        "projectName": "DataModel",
+        "projectPath": "C:\\Users\\adam\\Documents\\Programming-Project\\CSTP 1303\\CSTP1303-Client-Server-Computing\\Project console app\\ContactManagerApplication\\DataModel\\DataModel.csproj",
+        "packagesPath": "C:\\Users\\adam\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\adam\\Documents\\Programming-Project\\CSTP 1303\\CSTP1303-Client-Server-Computing\\Project console app\\ContactManagerApplication\\DataModel\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\adam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -60,7 +124,135 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\adam\\Documents\\Programming-Project\\CSTP 1303\\CSTP1303-Client-Server-Computing\\Project console app\\ContactManagerApplication\\Interfaces\\Abstractions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\adam\\Documents\\Programming-Project\\CSTP 1303\\CSTP1303-Client-Server-Computing\\Project console app\\ContactManagerApplication\\Interfaces\\Abstractions.csproj",
+        "projectName": "Abstractions",
+        "projectPath": "C:\\Users\\adam\\Documents\\Programming-Project\\CSTP 1303\\CSTP1303-Client-Server-Computing\\Project console app\\ContactManagerApplication\\Interfaces\\Abstractions.csproj",
+        "packagesPath": "C:\\Users\\adam\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\adam\\Documents\\Programming-Project\\CSTP 1303\\CSTP1303-Client-Server-Computing\\Project console app\\ContactManagerApplication\\Interfaces\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\adam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\adam\\Documents\\Programming-Project\\CSTP 1303\\CSTP1303-Client-Server-Computing\\Project console app\\ContactManagerApplication\\DataModel\\DataModel.csproj": {
+                "projectPath": "C:\\Users\\adam\\Documents\\Programming-Project\\CSTP 1303\\CSTP1303-Client-Server-Computing\\Project console app\\ContactManagerApplication\\DataModel\\DataModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\adam\\Documents\\Programming-Project\\CSTP 1303\\CSTP1303-Client-Server-Computing\\Project console app\\ContactManagerApplication\\Models\\Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\adam\\Documents\\Programming-Project\\CSTP 1303\\CSTP1303-Client-Server-Computing\\Project console app\\ContactManagerApplication\\Models\\Models.csproj",
+        "projectName": "Models",
+        "projectPath": "C:\\Users\\adam\\Documents\\Programming-Project\\CSTP 1303\\CSTP1303-Client-Server-Computing\\Project console app\\ContactManagerApplication\\Models\\Models.csproj",
+        "packagesPath": "C:\\Users\\adam\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\adam\\Documents\\Programming-Project\\CSTP 1303\\CSTP1303-Client-Server-Computing\\Project console app\\ContactManagerApplication\\Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\adam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\adam\\Documents\\Programming-Project\\CSTP 1303\\CSTP1303-Client-Server-Computing\\Project console app\\ContactManagerApplication\\Interfaces\\Abstractions.csproj": {
+                "projectPath": "C:\\Users\\adam\\Documents\\Programming-Project\\CSTP 1303\\CSTP1303-Client-Server-Computing\\Project console app\\ContactManagerApplication\\Interfaces\\Abstractions.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     }

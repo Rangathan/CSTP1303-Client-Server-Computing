@@ -1,7 +1,4 @@
-C:\Users\adam\Documents\Programming-Project\CSTP 1303\CSTP1303-Client-Server-Computing\Project console app\ContactManagerApplication\Models\bin\Debug\netcoreapp3.1\Models.exe
 C:\Users\adam\Documents\Programming-Project\CSTP 1303\CSTP1303-Client-Server-Computing\Project console app\ContactManagerApplication\Models\bin\Debug\netcoreapp3.1\Models.deps.json
-C:\Users\adam\Documents\Programming-Project\CSTP 1303\CSTP1303-Client-Server-Computing\Project console app\ContactManagerApplication\Models\bin\Debug\netcoreapp3.1\Models.runtimeconfig.json
-C:\Users\adam\Documents\Programming-Project\CSTP 1303\CSTP1303-Client-Server-Computing\Project console app\ContactManagerApplication\Models\bin\Debug\netcoreapp3.1\Models.runtimeconfig.dev.json
 C:\Users\adam\Documents\Programming-Project\CSTP 1303\CSTP1303-Client-Server-Computing\Project console app\ContactManagerApplication\Models\bin\Debug\netcoreapp3.1\Models.dll
 C:\Users\adam\Documents\Programming-Project\CSTP 1303\CSTP1303-Client-Server-Computing\Project console app\ContactManagerApplication\Models\bin\Debug\netcoreapp3.1\Models.pdb
 C:\Users\adam\Documents\Programming-Project\CSTP 1303\CSTP1303-Client-Server-Computing\Project console app\ContactManagerApplication\Models\obj\Debug\netcoreapp3.1\Models.csproj.AssemblyReference.cache
@@ -11,4 +8,8 @@ C:\Users\adam\Documents\Programming-Project\CSTP 1303\CSTP1303-Client-Server-Com
 C:\Users\adam\Documents\Programming-Project\CSTP 1303\CSTP1303-Client-Server-Computing\Project console app\ContactManagerApplication\Models\obj\Debug\netcoreapp3.1\Models.csproj.CoreCompileInputs.cache
 C:\Users\adam\Documents\Programming-Project\CSTP 1303\CSTP1303-Client-Server-Computing\Project console app\ContactManagerApplication\Models\obj\Debug\netcoreapp3.1\Models.dll
 C:\Users\adam\Documents\Programming-Project\CSTP 1303\CSTP1303-Client-Server-Computing\Project console app\ContactManagerApplication\Models\obj\Debug\netcoreapp3.1\Models.pdb
-C:\Users\adam\Documents\Programming-Project\CSTP 1303\CSTP1303-Client-Server-Computing\Project console app\ContactManagerApplication\Models\obj\Debug\netcoreapp3.1\Models.genruntimeconfig.cache
+C:\Users\adam\Documents\Programming-Project\CSTP 1303\CSTP1303-Client-Server-Computing\Project console app\ContactManagerApplication\Models\bin\Debug\netcoreapp3.1\Abstractions.dll
+C:\Users\adam\Documents\Programming-Project\CSTP 1303\CSTP1303-Client-Server-Computing\Project console app\ContactManagerApplication\Models\bin\Debug\netcoreapp3.1\DataModel.dll
+C:\Users\adam\Documents\Programming-Project\CSTP 1303\CSTP1303-Client-Server-Computing\Project console app\ContactManagerApplication\Models\bin\Debug\netcoreapp3.1\Abstractions.pdb
+C:\Users\adam\Documents\Programming-Project\CSTP 1303\CSTP1303-Client-Server-Computing\Project console app\ContactManagerApplication\Models\bin\Debug\netcoreapp3.1\DataModel.pdb
+C:\Users\adam\Documents\Programming-Project\CSTP 1303\CSTP1303-Client-Server-Computing\Project console app\ContactManagerApplication\Models\obj\Debug\netcoreapp3.1\Models.csproj.CopyComplete

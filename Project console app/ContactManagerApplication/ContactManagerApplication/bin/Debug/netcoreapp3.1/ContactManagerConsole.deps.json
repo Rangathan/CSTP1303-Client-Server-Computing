@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v3.1": {
       "ContactManagerConsole/1.0.0": {
         "dependencies": {
+          "ContactStorageDiskService": "1.0.0",
           "Models": "1.0.0"
         },
         "runtime": {
@@ -20,6 +21,14 @@
         },
         "runtime": {
           "Abstractions.dll": {}
+        }
+      },
+      "ContactStorageDiskService/1.0.0": {
+        "dependencies": {
+          "Abstractions": "1.0.0"
+        },
+        "runtime": {
+          "ContactStorageDiskService.dll": {}
         }
       },
       "DataModel/1.0.0": {
@@ -44,6 +53,11 @@
       "sha512": ""
     },
     "Abstractions/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ContactStorageDiskService/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

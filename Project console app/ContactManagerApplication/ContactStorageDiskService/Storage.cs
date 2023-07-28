@@ -68,6 +68,8 @@
             contacts = newContacts;
             size = newSize;
         }
+
+      
     }
 
     

@@ -4,6 +4,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.5.33424.131
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContactManagerConsole", "ContactManagerApplication\ContactManagerConsole.csproj", "{EAC747A7-5874-4DE6-9F4C-EBB688866D50}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4811B26D-3A9A-4CB5-A0DD-9BB67A72A34A} = {4811B26D-3A9A-4CB5-A0DD-9BB67A72A34A}
+		{7D485560-A2FB-4787-9C5D-732D4D486BB1} = {7D485560-A2FB-4787-9C5D-732D4D486BB1}
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContactStorageWebService", "ContactStore\ContactStorageWebService.csproj", "{9DD4687E-2ABE-47AD-A796-3660C15DEEE3}"
 EndProject
@@ -21,7 +25,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Abstractions", "Interfaces\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContactStorageDiskService", "ContactStorageDiskService\ContactStorageDiskService.csproj", "{4811B26D-3A9A-4CB5-A0DD-9BB67A72A34A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataModel", "DataModel\DataModel.csproj", "{8E97B0CE-1F71-49F4-98B3-0660F6D82F1A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataModel", "DataModel\DataModel.csproj", "{8E97B0CE-1F71-49F4-98B3-0660F6D82F1A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

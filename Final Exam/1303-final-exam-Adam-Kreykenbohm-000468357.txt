@@ -1,0 +1,425 @@
+STP 1303 - July 29, 2023 Final Exam
+======================================
+
+Instructions:
+Exam is closed notes, books and web.
+Put the questions and answers on a Text file.
+Name the file as 1303-Final-Exam-[YourFullName]-[StudentNumber].Txt
+
+To Submit the exam:
+===================
+1 - Push the file to your GitHub repo and submit the link to Moodle.
+2 - Attach a copy of the text file to email to george.bekari@gmail.com
+====================================================================================
+
+1 - What does DNS stand for and what is the problem it solves?
+The Domain Name System resolves the names of internet sites with their underlying IP addresses adding efficiency and even security in the process.
+
+2 - Explain how the DNS resolver uses root DNS, TLD and SLD using an example?
+    DNS resolver asks the root DNS for the ".com" TLD server.
+
+    Root DNS responds with the IP address of the ".com" TLD server.
+
+    DNS resolver asks the ".com" TLD server for the "google.com" domain.
+
+    TLD server responds with the IP address of the "google.com" authoritative server.
+
+    DNS resolver asks the "google.com" authoritative server for the IP address of "www.google.com."
+
+    Authoritative server responds with the IP address of "www.google.com."
+
+    DNS resolver sends the IP address to the browser, and you can access the website.
+
+3 - What is a thread in simple terms?
+A thread is like a small worker within a computer program that performs tasks simultaneously with other threads, improving efficiency and responsiveness.
+
+4 - What is a process in simple terms?
+A process is a standalone program running on a computer that performs a specific task independently.
+
+5 - Explain what a Client is in a Client/Server architecture?
+The client is the end-user's device or software application that sends requests to the server.
+
+6 - Explain what a Server is in a Client/Server architecture?
+The server, on the other hand, is a powerful computer or software application that hosts and manages resources, services, or data. It responds to client requests by providing the requested information or performing the necessary tasks. 
+
+7 - Response codes 400-499 are reserved for what kinds of responses?
+
+    C) Client errors 
+ 
+
+8 - We are creating an API for customer management with fetch, create, update and list functionality.
+    What should the API do when a client POSTs to this endpoint [  http://www.codingsolutions/api/customer/  ]?
+
+    B) Create a new Customer
+
+    
+
+9 - What should the API do when a client POSTs to the endpoint using an id parameter [  http://www.codingsolutions/api/customer/?id=123  ]?
+
+    C) Update a Customer
+
+    
+    
+10 - For what is DNS responsible?
+
+    B) Converting hostnames to IP addresses
+
+    
+    
+11 - For what is TCP responsible?
+
+    C) Reliable network transportation with guarantee of packet delivery order
+
+    
+12 - Where would you most likely encounter UDP?
+
+    B) Online games
+
+    
+    
+13 - In which portion of the OSI model will a user most likely notice an issue?
+
+    D) Layer 7 - The Application Layer 
+    
+14 - When using await to call an asynchronous function, where does the execution continue after returning from function?
+
+    B) On the original context that spawned the asynchronous operation
+
+    
+15 - Why should you always use async and await together in a method that leverages the asynchronous principles?
+    C) It makes the application easier to maintain.
+
+
+16 - Why don't you explicltly have to return a Task from a method marked as async?
+
+    C) When you introduce the await keyword in an async method, it automatically gives you a Task to return. 
+       
+17 - What is the difference between an abstract and concrete class?
+   
+    C) Abstract classes have no implementation.
+    
+18 - Assuming that we have two async implementations of GetResult1 and GetResult2 called
+    GetResult1Async() and GetResult2Async(), change the following code to take advantage of asynchronous execution. 
+    
+    public int AddResults()
+    {
+        var result1 = GetResult1();
+        var result2 = GetResult2();
+        
+        return result1 + result2;
+    }
+
+New code
+public async Task<int> AddResultsAsync()
+{
+    var result1Task = GetResult1Async();
+    var result2Task = GetResult2Async();
+    
+    var result1 = await result1Task;
+    var result2 = await result2Task;
+
+    return result1 + result2;
+}
+    
+19 - Which of the following collection objects would fulfill the following requirements?
+    It must internally store a key and value pair for each item.
+    It must allow us to iterate over the collection in order of the key.
+    It allows us to access the objects using the key.
+    
+  
+    D) SortedList 
+    
+20 - Which of the following statements are true?
+   
+    C) A dictionary saves data in KeyValuePair, ensuring the uniqueness of key-value pairs present in the collection item.
+    D) A list allows random access to the data elements.
+    
+21 - You are working with a large group of student objects. You need to remove all duplicates and then group them by studentid. Which collections should we use?
+    A) List
+
+    C) Dictionary
+   
+    
+    
+22 - Suppose you have the following code snippet:
+     class Person
+     {
+        public int ID { get; set; }
+        public string Name { get; set; }
+        public int Age { get; set; }
+     }
+
+    class PersonRepository
+    {
+        Dictionary<int, Person> people = new Dictionary<int, Person>
+        {
+            {21, new Person {ID = 1, Name="Ali", Age = 22 } },
+            {22, new Person {ID = 2, Name="Sundus", Age = 21 } },
+            {23, new Person {ID = 3, Name="Asad", Age = 22 } },
+            {24, new Person {ID = 5, Name="Naveed", Age = 21 } },
+        };
+
+        private void AddAdminMember()
+        {
+X1:        
+X2:         people.Add(24, new Person { ID = 6, Name = "Malik", Age = 10 });
+
+        }
+    }
+
+    The application fails at line X2 with the following error message: "An item with the same key has already been added." You need to resolve the error.
+    Which code segment should you insert at line X1?
+    
+    
+    B) if(!people.ContainsKey(24))
+   
+
+23 - Write a Concurrent Generic Queue with the following public methods:
+The queue should use an array as the internal data structure.
+Vote that the queue may be called from multiple threads
+Enqueue - puts an item on the queue
+Dequeue - removes and returns the next in line item
+GetCurrentLength - returns the current length
+Peek - returns the next in line item
+Queue should have a contructor that takes in the max. length.
+
+Do not use the built-in .net queue.
+Try to implement the queue with optimum efficiency.
+
+COde Below:
+
+public class ConcurrentQueue<T>
+{
+    private readonly T[] _queue;
+    private int _front; 
+    private int _rear;  
+    private int _count; 
+
+    private readonly object _lock = new object(); 
+
+    public int MaxLength { get; }
+
+    public ConcurrentQueue(int maxLength)
+    {
+        if (maxLength <= 0)
+            throw new ArgumentOutOfRangeException(nameof(maxLength), "Max length should be greater than zero.");
+
+        _queue = new T[maxLength];
+        _front = 0;
+        _rear = -1;
+        _count = 0;
+        MaxLength = maxLength;
+    }
+
+    public void Enqueue(T item)
+    {
+        lock (_lock)
+        {
+            if (_count == MaxLength)
+                throw new InvalidOperationException("Queue is full.");
+
+            _rear = (_rear + 1) % MaxLength;
+            _queue[_rear] = item;
+            _count++;
+        }
+    }
+
+    public T Dequeue()
+    {
+        lock (_lock)
+        {
+            if (_count == 0)
+                throw new InvalidOperationException("Queue is empty.");
+
+            var item = _queue[_front];
+            _queue[_front] = default(T); 
+
+            _front = (_front + 1) % MaxLength;
+            _count--;
+            return item;
+        }
+    }
+
+    public int GetCurrentLength()
+    {
+        lock (_lock)
+        {
+            return _count;
+        }
+    }
+
+    public T Peek()
+    {
+        lock (_lock)
+        {
+            if (_count == 0)
+                throw new InvalidOperationException("Queue is empty.");
+
+            return _queue[_front];
+        }
+    }
+
+=========================================
+This part of the exam gives you an option:
+You get to choose between Q24 & Q25.
+==========================================
+
+24 - You are develping an RPG game that incorporatres warriors, weapons and damages each weapon can cause. 
+    Your job is to create the classes for weapon damages. 
+    The weapons that can cause damage and the amount of damages are:
+      Weapon     Base Damage 
+      ======     ===========
+    - Sword       3
+    - Arrow       2
+    - Crossbow    2.5 
+    - Whip        1.5
+    - Dagger      2
+    - Staff       1
+    
+    All weapons calculate damage first by rolling dice. This is a virtual dice roll done randomly by the code.
+    A Dice roll of one  has no effect on the damage.
+    There should be a CalculateDamage() method that returns the damage calculated as double.
+    Sword, Staff and Dagger are special weapons in that they can become magical weapons if the player has reached levels 2 and above.
+    Every player starts at level 1. From levels 2 and up, the magic adds extra percentage to the weapon's damage.
+    
+    Player Level Damage increase % 
+    ============ ================
+    1               none
+    2               40%
+    3               60%
+    4               80%
+    5               100%
+
+    Dice Roll  Damage increase %
+    ========= ====================
+    1               none 
+    2               20%
+    3               30%
+    4               40%
+    5               50%
+    6               60%
+
+    E.g. the damage score for a sword is 3 and the user rolls 5 that increases the damage by 50% to 4.5
+    And if the player is at level 3, the damage is increased by 60% to 7.2
+        
+    Create the classes and methods necessary to calculate represent weapon damage and implement the CalculateDamage method for all weapons.
+
+Code Below:
+
+public class Weapon
+    {
+        public string Name { get; protected set; }
+        public double BaseDamage { get; protected set; }
+
+        public virtual double CalculateDamage(int diceRoll, int playerLevel)
+        {
+            double damage = BaseDamage;
+
+            
+            double diceRollBonus = GetDiceRollBonus(diceRoll);
+            damage += damage * diceRollBonus;
+
+            
+            if ((Name == "Sword" || Name == "Staff" || Name == "Dagger") && playerLevel >= 2)
+            {
+                double magicBonus = GetMagicBonus(playerLevel);
+                damage += damage * magicBonus;
+            }
+
+            return damage;
+        }
+
+        protected virtual double GetDiceRollBonus(int diceRoll)
+        {
+            switch (diceRoll)
+            {
+                case 2:
+                    return 0.2;
+                case 3:
+                    return 0.3;
+                case 4:
+                    return 0.4;
+                case 5:
+                    return 0.5;
+                case 6:
+                    return 0.6;
+                default:
+                    return 0;
+            }
+        }
+
+        protected virtual double GetMagicBonus(int playerLevel)
+        {
+            switch (playerLevel)
+            {
+                case 2:
+                    return 0.4;
+                case 3:
+                    return 0.6;
+                case 4:
+                    return 0.8;
+                case 5:
+                    return 1.0;
+                default:
+                    return 0;
+            }
+        }
+    }
+
+    public class Sword : Weapon
+    {
+        public Sword()
+        {
+            Name = "Sword";
+            BaseDamage = 3;
+        }
+    }
+
+    public class Arrow : Weapon
+    {
+        public Arrow()
+        {
+            Name = "Arrow";
+            BaseDamage = 2;
+        }
+    }
+
+    public class Crossbow : Weapon
+    {
+        public Crossbow()
+        {
+            Name = "Crossbow";
+            BaseDamage = 2.5;
+        }
+    }
+
+    public class Whip : Weapon
+    {
+        public Whip()
+        {
+            Name = "Whip";
+            BaseDamage = 1.5;
+        }
+    }
+
+    public class Dagger : Weapon
+    {
+        public Dagger()
+        {
+            Name = "Dagger";
+            BaseDamage = 2;
+        }
+    }
+
+    public class Staff : Weapon
+    {
+        public Staff()
+        {
+            Name = "Staff";
+            BaseDamage = 1;
+        }
+    }
+
+    ===========================================
+    Terms & abbreviations:
+    OSI: The Open Systems Interconnection model
